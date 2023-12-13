@@ -33,3 +33,10 @@ header{
     color: #E5E7EB;
     font-size: 18px;
 }
+
+.hero{
+    display: flex;
+}
+.top_image > img{
+    width:300px;
+}
