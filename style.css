@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    margin-right: 100px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top > .logo{
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-left: 100px;
+}
