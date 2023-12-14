@@ -11,6 +11,7 @@ ul{
     list-style-type: none;
     display: flex;
     gap: 15px;
+    flex-wrap: wrap;
 }
 header{
     background-color: #1F2937;
@@ -22,6 +23,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .top > .logo > a{
     color: #F9FAF8;
