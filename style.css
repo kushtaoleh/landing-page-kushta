@@ -152,10 +152,10 @@ header{
 .action{
     background-color: #3882F6;
     width: 800px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25px;
     border-radius: 10px;
     gap: 150px;
 }
@@ -164,4 +164,19 @@ header{
 }
 .button_bottom:active{
     border: 1px solid black;
+}
+.call_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.call_left > .action_first{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color:#F9FAF8;
+}
+.call_left > .action_second{
+    font-size: 18px;
+    color: #E5E7EB;
 }
