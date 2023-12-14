@@ -94,6 +94,7 @@ header{
 .items_wrapper{
     display: flex;
     gap: 50px;
+    flex-wrap: wrap;
 }
 .info_head{
     font-size: 36px;
