@@ -14,11 +14,11 @@ ul{
     margin-right: 100px;
 }
 header{
+    background-color: #1F2937;
     display: flex;
     flex-direction: column;
 }
 .top{
-    background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,9 +53,22 @@ header{
 .signup > h1 > span{
     display: block;
 }
+.signup > h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.signup > p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
 .button_signup{
     width: fit-content;
     width: -moz-fit-content;
+    padding: 5px 25px 5px 25px;
+    background: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
 }
 
 
