@@ -1,7 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    /* height: 100vh; */
     margin: 0;
 }
 a {
@@ -152,7 +152,7 @@ header{
 .action{
     background-color: #3882F6;
     width: 800px;
-    height: 100px;
+    height: 125px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -177,6 +177,18 @@ header{
     color:#F9FAF8;
 }
 .call_left > .action_second{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 100px;
+}
+footer > p{
     font-size: 18px;
     color: #E5E7EB;
 }
