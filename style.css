@@ -53,7 +53,10 @@ header{
 .signup > h1 > span{
     display: block;
 }
-
+.button_signup{
+    width: fit-content;
+    width: -moz-fit-content;
+}
 
 
 .top_image > img{
