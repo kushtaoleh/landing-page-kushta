@@ -36,6 +36,7 @@ header{
 
 .hero{
     display: flex;
+    justify-content: space-between;
 }
 .signup{
     display: flex;
@@ -54,8 +55,7 @@ header{
     width: 300px;
 }
 
-
-
 .top_image > img{
     width:300px;
+    margin-right: 100px;
 }
