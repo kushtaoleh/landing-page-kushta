@@ -53,7 +53,7 @@ header{
 .signup > h1 > span{
     display: block;
 }
-.signup > h1{
+.signup > .hero_text{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
@@ -95,7 +95,7 @@ header{
     display: flex;
     gap: 50px;
 }
-.info_item > h2{
+.info_head{
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
@@ -107,6 +107,8 @@ header{
     border-radius: 15px;
 }
 .info_item > p{
+    color: #616A77;
     text-align: center;
     width: 150px;
+
 }
