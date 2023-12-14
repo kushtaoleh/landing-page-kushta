@@ -113,5 +113,33 @@ header{
     color: #616A77;
     text-align: center;
     width: 150px;
+}
 
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.quote_wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.quote > .quote_wrapper > blockquote{
+    width: 700px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 0;
+}
+.quote > .quote_wrapper > .author{
+    margin: 0;
+    width: 550px;
+    text-align: end;
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #1F2937;
 }
