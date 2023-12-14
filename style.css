@@ -42,7 +42,7 @@ header{
 .signup{
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 400px;
     gap: 10px;
 }
 .signup > h1,
@@ -69,9 +69,16 @@ header{
     background: #3882F6;
     color: #F9FAF8;
     font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #1F2937;
+}
+.button_signup:hover{
+    background: #5f9cfe;
+}
+.button_signup:active{
+    border: 1px solid white;
 }
 
-
 .top_image > img{
-    width:300px;
+    width: 450px;
 }
