@@ -143,3 +143,25 @@ header{
     font-weight: bolder;
     color: #1F2937;
 }
+
+.callActionSection{
+    display: flex;
+    justify-content: center;
+    padding: 75px 0 100px 0;
+}
+.action{
+    background-color: #3882F6;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    border-radius: 10px;
+    gap: 150px;
+}
+.button_bottom{
+    border: 1px solid white;
+}
+.button_bottom:active{
+    border: 1px solid black;
+}
